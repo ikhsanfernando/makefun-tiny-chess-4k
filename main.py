@@ -4,8 +4,8 @@ f={0:'Q',7:J,56:X,63:K}
 import json as Y,os,urllib.request as Z
 def G(a,b):return 0<=b<64 and L(a%8-b%8)<=2
 def R(b,s,y):
-	p='pP'[y==E];k=8-16*(y==E)
-	if V(G(s,s+k+x)and b[s+k+x]==p for x in(-1,1)):return True
+	z='pP'[y==E];k=8-16*(y==E)
+	if V(G(s,s+k+x)and b[s+k+x]==z for x in(-1,1)):return True
 	if V(G(s,s+x)and b[s+x]=='nN'[y==E]for x in a):return True
 	if V(G(s,s+x)and b[s+x]=='kK'[y==E]for x in d):return True
 	for x in Q+N:
