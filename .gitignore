@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+tr.tar.gz
+retry.sh
