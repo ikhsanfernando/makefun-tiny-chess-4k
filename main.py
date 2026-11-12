@@ -70,7 +70,7 @@ def Y(a,d,g,f,e):
  if D in S and P(b-c)in(7,9)and s[b]==h:s[b-(8 if C else-8)]=h
  s[b]=D;s[c]=h
  if o:s[b]=o.upper()if C else o
- if D in'Kk'and P(b-c)==2:m=1 if b>c else-1;s[c+m],s[c+3*m]=s[c+3*m],h
+ if D in'Kk'and P(b-c)==2:m=1 if b>c else-1;s[c+m],s[c+m*7//2]=s[c+m*7//2],h
  B=g if g and g!=Q else F
  if D in'Kk':B=B.replace(D,F).replace('Q'if D==V else'q',F)
  for n in(c,b):B=B.replace({0:'Q',7:'K',56:'q',63:'k'}.get(n,F),F)
