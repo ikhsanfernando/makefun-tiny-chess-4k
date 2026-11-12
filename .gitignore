@@ -3,4 +3,5 @@ __pycache__/
 *.tar.gz
 go.sh
 sub.txt
+retry.sh
 tr.tar.gz
